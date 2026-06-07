@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { questions } from "@/lib/questions";
 import { speak } from "@/lib/audio";
 
-export default function GameEngine() {
+export default function GameEngine() 
   const [i, setI] = useState(0);
   const [score, setScore] = useState(0);
   const [msg, setMsg] = useState("");
