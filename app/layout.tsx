@@ -4,8 +4,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body style={{ margin: 0, fontFamily: "sans-serif" }}>{children}</body>
+    <html lang="es">
+      <body style={{ margin: 0, fontFamily: "sans-serif" }}>
+        {children}
+      </body>
     </html>
   );
 }
