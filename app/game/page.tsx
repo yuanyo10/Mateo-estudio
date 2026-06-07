@@ -1,4 +1,4 @@
-import GameEngine from "@/components/GameEngine";
+import GameEngine from "@/components/gameengine";
 
 export default function GamePage() {
   return (
